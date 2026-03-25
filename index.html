@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donut Capital — DonutSMP Market</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- DISCORD FLOATING BUTTON -->
+  <a href="https://discord.gg/EzDAfM6nNM" target="_blank" rel="noopener" class="discord-float" aria-label="Join our Discord">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 127.14 96.36" fill="currentColor">
+      <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+    </svg>
+    <span>Join Discord</span>
+  </a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo-block">
+        <div class="logo-img-wrap">
+          <img src="images/logo.png" alt="Donut Capital Logo" class="logo-img" />
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">DONUT CAPITAL</span>
+          <span class="logo-sub">DonutSMP Marketplace</span>
+        </div>
+      </a>
+      <nav class="site-nav">
+        <a href="#spawners" class="nav-link">Spawners</a>
+        <a href="#builds" class="nav-link">Builds</a>
+        <a href="#digging" class="nav-link">Digging</a>
+        <a href="https://discord.gg/EzDAfM6nNM" target="_blank" rel="noopener" class="nav-link nav-discord">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 127.14 96.36" fill="currentColor" style="flex-shrink:0;vertical-align:middle">
+            <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+          </svg>
+          Discord
+        </a>
+        <a href="/admin/" class="nav-link nav-admin">Admin ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- DISCORD BANNER -->
+  <div class="discord-banner">
+    <div class="discord-banner-inner">
+      <div class="discord-banner-left">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 127.14 96.36" fill="currentColor">
+          <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+        </svg>
+        <span class="discord-banner-text">Trade, negotiate &amp; get support — join us on Discord</span>
+      </div>
+      <a href="https://discord.gg/EzDAfM6nNM" target="_blank" rel="noopener" class="discord-banner-btn">
+        discord.gg/EzDAfM6nNM →
+      </a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-tag">LIVE MARKET</div>
+      <h1 class="hero-headline">THE SMP'S<br/><span class="orange">TRADING HUB</span></h1>
+      <p class="hero-sub">Browse spawners, builds, and services. Prices updated in real time.</p>
+      <div class="hero-stats">
+        <div class="stat-pill"><span id="stat-spawners">—</span> Spawners</div>
+        <div class="stat-pill"><span id="stat-builds">—</span> Builds</div>
+        <div class="stat-pill orange-pill">All prices in <strong>Diamonds</strong></div>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <img src="images/logo.png" alt="" class="hero-logo-deco" />
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-inner" id="ticker">
+      <span class="ticker-label">MARKET</span>
+      <span class="ticker-item" id="ticker-content">Loading market data…</span>
+    </div>
+  </div>
+
+  <!-- SPAWNERS -->
+  <section class="section" id="spawners">
+    <div class="section-header">
+      <div class="section-label">01</div>
+      <div>
+        <h2 class="section-title">SPAWNERS</h2>
+        <p class="section-desc">All mob spawners currently in stock. Prices per spawner unit.</p>
+      </div>
+    </div>
+    <div class="spawner-grid" id="spawner-grid">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+  </section>
+
+  <!-- BUILDS -->
+  <section class="section section-alt" id="builds">
+    <div class="section-header">
+      <div class="section-label">02</div>
+      <div>
+        <h2 class="section-title">BUILDS &amp; FARMS</h2>
+        <p class="section-desc">Custom-built farms, bases, and structures. Ready to deploy.</p>
+      </div>
+    </div>
+    <div class="builds-grid" id="builds-grid">
+      <div class="skeleton-card tall"></div>
+      <div class="skeleton-card tall"></div>
+      <div class="skeleton-card tall"></div>
+    </div>
+  </section>
+
+  <!-- DIGGING -->
+  <section class="section" id="digging">
+    <div class="section-header">
+      <div class="section-label">03</div>
+      <div>
+        <h2 class="section-title">DIGGING SERVICES</h2>
+        <p class="section-desc">Hire us to dig. Flat rate per block. Simple pricing.</p>
+      </div>
+    </div>
+    <div class="digging-layout" id="digging-layout">
+      <div class="skeleton-card wide"></div>
+    </div>
+  </section>
+
+  <!-- DISCORD CTA -->
+  <section class="discord-cta">
+    <div class="discord-cta-inner">
+      <div class="discord-cta-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 127.14 96.36" fill="currentColor">
+          <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+        </svg>
+      </div>
+      <div class="discord-cta-text">
+        <h3 class="discord-cta-title">WANT TO MAKE A DEAL?</h3>
+        <p class="discord-cta-sub">Join the Discord to negotiate prices, request builds, and get in touch with our traders directly.</p>
+      </div>
+      <a href="https://discord.gg/EzDAfM6nNM" target="_blank" rel="noopener" class="discord-cta-btn">
+        Join Server →
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="images/logo.png" alt="Donut Capital" class="footer-logo-img" />
+        <span class="footer-logo-text">DONUT CAPITAL</span>
+      </div>
+      <div class="footer-meta">
+        DonutSMP Marketplace &nbsp;·&nbsp; All prices in Diamonds &nbsp;·&nbsp;
+        <a href="https://discord.gg/EzDAfM6nNM" target="_blank" rel="noopener">Discord</a>
+        &nbsp;·&nbsp;
+        <a href="/admin/">Admin</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

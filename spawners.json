@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "name": "Skeleton",      "price": 12, "stock": 5,  "image": "images/spawners/skeleton.png" },
+    { "name": "Pig",           "price": 4,  "stock": 10, "image": "images/spawners/pig.png" },
+    { "name": "Iron Golem",    "price": 64, "stock": 2,  "image": "" },
+    { "name": "Zombie",        "price": 10, "stock": 8,  "image": "images/spawners/zombie.png" },
+    { "name": "Zombie Pigman", "price": 32, "stock": 3,  "image": "images/spawners/zombie-pigman.png" },
+    { "name": "Cow",           "price": 6,  "stock": 12, "image": "" },
+    { "name": "Spider",        "price": 14, "stock": 4,  "image": "" },
+    { "name": "Creeper",       "price": 24, "stock": 1,  "image": "images/spawners/creeper.png" },
+    { "name": "Blaze",         "price": 96, "stock": 0,  "image": "images/spawners/blaze.png" }
+  ]
+}
